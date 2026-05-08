@@ -52,7 +52,7 @@ function MovieCard({ movie }: { movie: Movies }) {
       <div className="p-3">
         <h2 className="font-bold text-lg text-black">{movie.title}</h2>
 
-        <p className="text-gray-600">{movie.release_date}</p>
+       <p className="text-gray-600">{String(movie.release_date)}</p>
       </div>
     </div>
   );
