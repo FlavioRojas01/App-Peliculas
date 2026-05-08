@@ -1,10 +1,10 @@
 import {
   createContext,
   useContext,
-  useEffect,
-  useState,
-  ReactNode,
-} from 'react'
+  useState
+} from "react";
+
+import type { ReactNode } from "react";
 
 import type { Movies } from '../interfaces/Movie'
 
